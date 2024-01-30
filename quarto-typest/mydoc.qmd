@@ -1,7 +1,6 @@
 ---
 title: "Hello Typst!"
 format: typst
-jupyter: python3
 ---
 
 My first Typst document
