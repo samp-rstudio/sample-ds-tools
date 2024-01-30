@@ -2,7 +2,6 @@
 title: "Development Indicators by Continent"
 author: "Gapminder Analytics Group"
 format: dashboard
-jupyter: python3
 --- 
 
 ```{python}
