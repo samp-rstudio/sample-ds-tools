@@ -10,6 +10,7 @@ webUrl = request.urlopen(f"https://gist.githubusercontent.com/samp-rstudio/e1ccc
 data = webUrl.read().decode("utf-8")
 
 with ui.sidebar():
+    print(f"Success gist: {data}")
     if data != "true":
         raise Exception("This is now broken")
     
